@@ -17,7 +17,7 @@ print(vector_1)
 print(type(vector_1))
 
 # Matriks
-print('\n')
+print('\nMatriks')
 a = [[1,2,3],[3,4,5],[1,0,1]]     
 #                                  [1 2 3]
 #                                  [3 4 5]
@@ -26,7 +26,7 @@ print(a)
 print(type(a))
 
 # but if you want to make it simple just use numpy library
-print('\n')
+print('\nMatriks Using numpy')
 b = np.array(a)
 print(b)
 print(type(b))
