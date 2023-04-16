@@ -13,31 +13,31 @@ import math
 
 # 1. Buatlah sebuah fungsi yang dapat menghitung mean dari sebuah vektor numerik.
 
-    # def calculate_mean(num1,num2):
+def calculate_mean(num1,num2):
 
-    #     total = num1.sum() + num2.sum()
+total = num1.sum() + num2.sum()
 
-    #     return f'Mean from those vector is: {total/(len(num1) + len(num2))}'
+return f'Mean from those vector is: {total/(len(num1) + len(num2))}'
 
-    # a = np.array([[1,2,3,4,5],[6,7,8,9,10]])
-    # b = np.array([[1,4,9,16,25] , [36,49,64,81,100]])
+a = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+b = np.array([[1,4,9,16,25] , [36,49,64,81,100]])
 
 
 
 # 2. Buatlah sebuah fungsi yang dapat menghitung median dari sebuah vektor numerik.
 
-    # def calculate_median(num):
+def calculate_median(num):
 
-    #     sorting_vect = np.sort(num)
+    sorting_vect = np.sort(num)
 
-    #     if len(num)%2 == 0:
-    #         return f'from {sorting_vect} \nmedian is: {(sorting_vect[4] + sorting_vect[5])/2}'
+    if len(num)%2 == 0:
+        return f'from {sorting_vect} \nmedian is: {(sorting_vect[4] + sorting_vect[5])/2}'
 
-    #     else:
-    #         return f'from {num} \nmedian is: {sorting_vect[int(len(num)/2)]}'
+    else:
+        return f'from {num} \nmedian is: {sorting_vect[int(len(num)/2)]}'
 
-    # a = np.array([random.randint(1,50) for i in range(10)])
-    # print(calculate_median(a))
+a = np.array([random.randint(1,50) for i in range(10)])
+print(calculate_median(a))
 
 # 3. Buatlah sebuah fungsi yang dapat menghitung modus dari sebuah vektor numerik.
 
@@ -54,8 +54,14 @@ import math
 
 #     return f'from {num} \nmode is: {mode}'
     
+<<<<<<< HEAD
 # a = np.array([random.randint(1,30) for i in range(10)])
 # print(calculate_modus(a))   
+=======
+a = np.array([random.randint(1,30) for i in range(10)])
+print(calculate_modus(a))   
+
+>>>>>>> be4242a0bdb99b627d9036e047db9906baac5def
     # this code it's not done yet because it just done for show 1 mode value, but
     # what if there is more than one mode value?
 
