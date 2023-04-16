@@ -70,5 +70,22 @@ print(calculate_modus(a))
 # 10. Buatlah sebuah fungsi yang dapat menghitung dot product antara dua matriks.
 
 # Matriks
+<<<<<<< HEAD
 
+=======
+print('\nMatriks')
+a = [[1,2,3],[3,4,5],[1,0,1]]     
+#                                  [1 2 3]
+#                                  [3 4 5]
+#                                  [1 0 1]
+print(a)
+print(type(a))
+
+# but if you want to make it simple just use numpy library
+print('\nMatriks Using numpy')
+b = np.array(a)
+print(b)
+print(type(b))
+
+>>>>>>> 5315b676a6e34adccd2db2406eaf08a265d4f0fc
 # factor
