@@ -56,7 +56,10 @@ def calculate_modus(num):
     
 a = np.array([random.randint(1,30) for i in range(10)])
 print(calculate_modus(a))   
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3209488713faca81a95b5a0d33a8f1c626be5a34
     # this code it's not done yet because it just done for show 1 mode value, but
     # what if there is more than one mode value?
 
